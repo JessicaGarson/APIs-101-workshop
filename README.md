@@ -84,3 +84,7 @@ response = requests.get(url, params).json()
 # Prints the word that rhymes the most with Python.
 print(response[0]['word'])
 ```
+
+### OMDB
+[OMDB](http://www.theimdbapi.org/), open movie archive api for IMDB. 
+
